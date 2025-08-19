@@ -1,4 +1,4 @@
-== generate layout
+## generate layout
 ~~~
 jemdoc -c mysite.conf *.jemdoc
 ~~~
