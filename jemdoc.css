@@ -9,7 +9,7 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: "Instrument Sans";
+	font-family: "Times New Roman";
 	padding-bottom: 8px;
 	margin: 0;
 }
@@ -85,7 +85,6 @@ div.menu-category {
 	padding-top: 0.2em;
 	padding-bottom: 0.1em;
 	font-weight: bold;
-	font-family: "EB Garamond"
 }
 
 div.menu-item {
@@ -129,7 +128,6 @@ h1, h2, h3 {
 	padding-top: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
 	font-weight: bolder; 
-	font-family: "EB Garamond"
 }
 
 h1 {
