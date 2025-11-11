@@ -1,4 +1,4 @@
-## generate layout
+## Rendering
 ~~~
 jemdoc -c mysite.conf *.jemdoc
 ~~~
