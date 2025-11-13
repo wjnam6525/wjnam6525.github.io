@@ -1,0 +1,9 @@
+# jemdoc: menu{MENU}{scratchpad.jemdoc}
+= Miscellaneous stuff
+
+== Interesting Papers
+- Probability Distribution Learning Framework and Its Application in
+Understanding Deep Learning 
+[https://arxiv.org/pdf/2406.05666]
+- On a Proper Bayes, but Inadmissible Estimator 
+[https://doi.org/10.1080/00031305.2019.1604432]
