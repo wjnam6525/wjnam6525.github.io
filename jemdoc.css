@@ -6,13 +6,23 @@ table#tlayout {
 	border: none;
 	border-collapse: separate;
 	background: white;
+	width: 100vw; /* Fill entire viewport width */
+	height: 100vh; /* Fill entire viewport height */
+	display: flex; /* Use flexbox for better height control */
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
 }
 
 body {
 	background: white;
 	font-family: "Noto Serif";
-	padding-bottom: 8px;
+	padding: 0;
 	margin: 0;
+	font-size: 16px; /* Base font size for scaling */
+	height: 100vh; /* Always fill viewport height */
+	width: 100vw; /* Always fill viewport width */
+	overflow: auto; /* Prevent body scroll */
 }
 
 #layout-menu {
@@ -26,6 +36,9 @@ body {
 	white-space: nowrap;
 	text-align: left;
 	vertical-align: top;
+	flex-shrink: 0; /* Prevent menu from shrinking */
+	overflow-y: auto; /* Scroll menu if content is too tall */
+	max-height: 100vh;
 }
 
 #layout-menu td {
@@ -41,8 +54,12 @@ body {
 	background: white;
 	text-align: left;
 	vertical-align: top;
-	min-width: 800px;
-	width: 800px;
+	width: 100vw; /* Take all available width */
+	box-sizing: border-box; /* Include padding in width calculation */
+	flex: 1; /* Take remaining space */
+	overflow-y: auto; /* Scroll content if too tall */
+	overflow-x: hidden; /* Prevent horizontal scroll */
+	height: 100vh;
 }
 
 #layout-menu a {
@@ -135,13 +152,13 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 300%;
+	font-size: clamp(2em, 8vw, 3em); /* Responsive: min 2em, preferred 8vw, max 3em */
 	font-weight: bold
 }
 
 h2 {
 	padding-top: 0.8em;
-	font-size: 175%;
+	font-size: clamp(1.5em, 5vw, 1.75em); /* Responsive sizing */
 }
 
 h2 + h3 {
@@ -149,7 +166,7 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 150%;
+	font-size: clamp(1.2em, 4vw, 1.5em); /* Responsive sizing */
 	border-bottom: none;
 }
 
