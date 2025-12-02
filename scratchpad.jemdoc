@@ -2,6 +2,16 @@
 = Miscellaneous stuff
 
 == Interesting Papers
+=== Discrete Diffusion
+- [https://arxiv.org/pdf/2107.03006]
+- [https://arxiv.org/pdf/2503.09573]
+=== Diffusions
+==== Predicting X right away
+- Consistency Models [https://arxiv.org/pdf/2303.01469]
+- Back to Basics [https://arxiv.org/pdf/2511.13720]
+=== Other stuff
+- mindiffusion [https://github.com/swookey-thinky/mindiffusion]
+- [https://people.idsia.ch/~juergen/world-models-planning-curiosity-fki-1990.html]
 - Probability Distribution Learning Framework and Its Application in
 Understanding Deep Learning 
 [https://arxiv.org/pdf/2406.05666]
