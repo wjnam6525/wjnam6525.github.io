@@ -14,8 +14,9 @@
 - VideoDPS25 [https://openreview.net/pdf?id=TRWxFUzK9K]
 === Forcing DM capturing external world knowledge
 - REPA [https://arxiv.org/pdf/2410.06940]
+- VideoREPA [https://arxiv.org/pdf/2505.23656]
 - GeoForcing [https://arxiv.org/pdf/2507.07982?]
-- SpatialForcing[https://openreview.net/pdf?id=euMVC1DO4k]
+- SpatialForcing [https://openreview.net/pdf?id=euMVC1DO4k]
 === Other stuff
 - mindiffusion [https://github.com/swookey-thinky/mindiffusion]
 - [https://people.idsia.ch/~juergen/world-models-planning-curiosity-fki-1990.html]
