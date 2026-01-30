@@ -5,10 +5,17 @@
 === Discrete Diffusion
 - [https://arxiv.org/pdf/2107.03006]
 - [https://arxiv.org/pdf/2503.09573]
-=== Diffusions
-==== Predicting X right away
+=== Reflection on Diffusion Objectives
 - Consistency Models [https://arxiv.org/pdf/2303.01469]
 - Back to Basics [https://arxiv.org/pdf/2511.13720]
+=== DM-aided Inverse Problem Solver
+- DPS23 [https://arxiv.org/pdf/2209.14687]
+- FlowDPS24 [https://openaccess.thecvf.com/content/ICCV2025/papers/Kim_FlowDPS__Flow-Driven_Posterior_Sampling_for_Inverse_Problems_ICCV_2025_paper.pdf]
+- VideoDPS25 [https://openreview.net/pdf?id=TRWxFUzK9K]
+=== Forcing DM capturing external world knowledge
+- REPA [https://arxiv.org/pdf/2410.06940]
+- GeoForcing [https://arxiv.org/pdf/2507.07982?]
+- SpatialForcing[https://openreview.net/pdf?id=euMVC1DO4k]
 === Other stuff
 - mindiffusion [https://github.com/swookey-thinky/mindiffusion]
 - [https://people.idsia.ch/~juergen/world-models-planning-curiosity-fki-1990.html]
@@ -17,3 +24,5 @@ Understanding Deep Learning
 [https://arxiv.org/pdf/2406.05666]
 - On a Proper Bayes, but Inadmissible Estimator 
 [https://doi.org/10.1080/00031305.2019.1604432]
+- Tweedie's Formula and Selection Bias
+[https://efron.ckirby.su.domains/papers/2011TweediesFormula.pdf]
