@@ -238,6 +238,11 @@ li p, dd p {
 	margin-bottom: 0.3em;
 }
 
+.publication-details {
+	display: inline-block;
+	margin-left: 1.5em;
+}
+
 
 ol ol {
 	list-style-type: lower-alpha;
